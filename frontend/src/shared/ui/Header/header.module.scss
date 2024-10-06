@@ -1,0 +1,12 @@
+.header {
+  
+  &::before {
+    content: url('~/public/logo.png');
+    position: absolute;
+    left: 50px;
+  }
+
+  & img {
+    height: 20px;
+  }
+}
