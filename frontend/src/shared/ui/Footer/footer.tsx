@@ -9,7 +9,7 @@ import styles from "./footer.module.scss";
 export default function Footer() {
   return (
     <footer
-      className={`${styles["footer"]} flex flex-col items-center justify-center h-[80px]`}
+      className={`${styles["footer"]} flex flex-col items-center h-[80px]`}
     >
       <div
         className={`${styles["footer__contacts"]} flex items-center justify-center bg-[#0B1919] gap-[30px] w-full py-[18px] px-[18px]`}
@@ -19,7 +19,7 @@ export default function Footer() {
         <Image src={contactsFace} alt="facebook" />
         <Image src={contactsTwit} alt="twitter" />
       </div>
-      <div className={`${styles["footer__fb"]} text-[13px] text-[#899D9D]`}>
+      <div className={`${styles["footer__fb"]} py-[2px] text-[13px] text-[#899D9D]`}>
         f&b ® 2020
       </div>
     </footer>
