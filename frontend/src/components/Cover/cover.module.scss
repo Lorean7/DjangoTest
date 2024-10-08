@@ -26,14 +26,21 @@
     z-index: 2;
   }
 
-  & h1 {
-    font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-  }
+  &__description {
 
-  & div {
-    margin-top: 16px;
-    font-size: 16px;
+    &_title {
+      font-size: clamp(42px, 6vw, 60px);
+      line-height: clamp(42px, 6vw, 60px);
+
+      @media (max-width: 620px) {
+        text-align: center;
+      }
+    }
+
+    &_text {
+      @media (max-width: 620px) {
+        display: none;
+      }
+    }
   }
 }
