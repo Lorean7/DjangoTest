@@ -18,4 +18,16 @@
     position: relative;
     z-index: 2;
   }
+
+  &__info-description {
+    @media (max-width: 800px) {
+      br {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    display: none;
+  }
 }

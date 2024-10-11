@@ -2,9 +2,9 @@
 const config = {
   plugins: {
     tailwindcss: {},
-    "postcss-modules": {
-      globalModulePaths: [/global\.css$/],
-    },
+    // "postcss-modules": {
+    //   globalModulePaths: [/global\.css$/],
+    // },
   },
 };
 

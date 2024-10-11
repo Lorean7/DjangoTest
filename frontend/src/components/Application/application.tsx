@@ -3,14 +3,14 @@ import styles from "./application.module.scss";
 export default function Application() {
   return (
     <div className={`${styles["application"]} flex justify-center items-center w-full mt-[60px] py-[60px]`}>
-      <div className={`${styles["application__info"]} container flex flex-col`}>
+      <div className={`${styles["application__info"]} px-[10px] container flex flex-col`}>
         <h1
           className={`${styles["application__info-title"]} text-[48px] font-bold`}
         >
           Помочь проекту
         </h1>
         <p
-          className={`${styles["application__info-description"]} text-[16px] mt-[16px]`}
+          className={`${styles["application__info-description"]} text-justify text-[16px] mt-[16px]`}
         >
           Равным образом, экономическая повестка сегодняшнего дня не даёт нам
           иного выбора, кроме

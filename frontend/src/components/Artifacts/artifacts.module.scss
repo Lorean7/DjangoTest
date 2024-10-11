@@ -1,5 +1,8 @@
 .new {
 
+  &_title {
+    font-size: clamp(32px, 6vw, 48px);
+  }
   &__artifacts {
 
     @media screen and (max-width: 1300px) {

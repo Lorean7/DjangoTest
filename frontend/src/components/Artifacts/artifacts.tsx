@@ -7,7 +7,7 @@ import styles from "./artifacts.module.scss";
 export default function New() {
   return (
     <div className={`${styles["new"]} container mt-[60px] px-[10px]`}>
-      <h1 className={`${styles["new_title"]} text-[48px] font-bold`}>
+      <h1 className={`${styles["new_title"]} font-bold`}>
         Новые артефакты
       </h1>
       <div
@@ -17,7 +17,7 @@ export default function New() {
           <Image src={artifacts} alt="artifacts" />
         </div>
         <div
-          className={`${styles["new__artifacts_info"]} bg-[#bae249] p-[16px] `}
+          className={`${styles["new__artifacts_info"]} bg-[#bae248] p-[16px] `}
         >
           <h1
             className={`${styles["new__info_title"]} text-[#1D2F30] text-[24px] font-bold`}

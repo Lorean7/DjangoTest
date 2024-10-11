@@ -50,6 +50,9 @@ body {
 
   &:hover {
     background-color: #899D9D;
-    color: white
+  }
+
+  &:hover::placeholder, &:hover {
+    color: white;
   }
 }

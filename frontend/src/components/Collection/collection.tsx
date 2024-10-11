@@ -4,7 +4,7 @@ import styles from "./collection.module.scss";
 
 export default function Collection() {
   return (
-    <div className={`${styles["collection"]} mt-[60px] flex flex-row flex-wrap justify-center gap-[30px]`}>
+    <div className={`${styles["collection"]} mt-[60px] px-[10px] flex flex-row flex-wrap justify-center gap-[30px]`}>
       <Card
         rating={4}
         picture=""

@@ -29,7 +29,7 @@
   &__description {
 
     &_title {
-      font-size: clamp(42px, 6vw, 60px);
+      font-size: clamp(32px, 6vw, 60px);
       line-height: clamp(42px, 6vw, 60px);
 
       @media (max-width: 620px) {
